@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<!-- Inicio del documento html-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css"> -->
+        
+
+
+<!-- Datos que le pasamos al navegador con información de nuestra página-->
+    <title>Practica</title>
+
+
+    <style>
+        .parrafo1{
+            color: red;
+        }
+    </style>
+</head>
+
+<!-- Representa todo el contenido de nuestra página web-->
+<body>
+
+    <!-- Los Atributos son valores adicionales que configuran los elementos y/o ajustan su comportamiento
+        En terminos generales hay dos tipos de atributos
+        -coomunes:
+            Su sintaxis es -> atributo="valor"
+        -Booleanos
+            Su sintaxis es -> atributo
+
+        - Algunos atributos globajes que estan disponibles para la mayorìa de etiquetas en HTML.
+
+        - ID -> Es un identificador únidoo que se utiliza para seleccionar el elemento desde JS y para hacer navegación a través de anclas.
+        
+        -title -> Es un atributo que ayuda a la accesibilidad mostrando una descripción del elemento al que pertenece. Aparece el mensaje en un tooltip
+
+        -data-* -> Es un atributo que nos permite guardar algún valor en la etiqueta HTML
+    
+    
+    -->
+   <header>
+    
+   </header>
+    <main>
+        <!--     <i class="fa fa-instagram"></i>
+                 <i class ="fa fa-facebook"></i>
+                 <i class ="fa fa-twitter"></i>
+                 <i class="fa fa-youtube"></i> -->
+
+
+        <p class="parrafo1"> Class</p>
+        <p id="parrafo4"> identificadora traves de una id</p>
+        <p title = "Este es un ejemplo del atibuto title ">Titulo con Tooltip</p>
+        <p id="parrafo2" data-ejemplo="Datos de ejemplo">Datos pasados en la etiqueta</p>
+
+
+        <script>
+            const p = document.getElementById('parrafo4')
+            const parrafo2 = document.getElementById('parrafo2')
+
+            console.log(p.textContent)
+            console.log(parrafo2.dataset.ejemplo)
+        </script>
+
+    </main>   
+    <footer>
+
+    </footer>
+   
+   
+   
+    Esto es el body de nuestra página web en un servidor local
+</body>
+</html>
+
