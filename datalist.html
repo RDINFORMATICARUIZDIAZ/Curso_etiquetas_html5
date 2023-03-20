@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="Es-es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalist</title>
+</head>
+<body>
+    <h1>Elemento seleccionables</h1>
+    <form action="">
+
+        <input type="list" list="pets">
+        <datalist  id="pets">
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="Hamster">Hamster</option>
+            <option value="loro">Loro</option>
+            <option value="serpiente">Serpiente</option>
+            <option value="tarantula">Tarantula</option>
+            <option value="armadillo">Armadillo</option>
+            <option value="conejo">Conejo</option>
+        </datalist>
+    </form>
+    
+    <!-- MAs elementos dentro de formulario-->
+
+    <form action="">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido">
+            </div>
+            <input type="file">
+
+        </fieldset>
+        
+    
+
+        <!--  <fieldset></fieldset>:  Agrupar elementos deltro de un formulario-->
+
+
+    </form>
+
+    <form action="">
+        <fieldset>
+            
+            <label for="fuel">Combustible</label>
+            <meter id="fuel" min="0" max="100" value="30" low="30" high="65" optimum="50"></meter>
+        </fieldset>
+
+        <form action="">
+            <fieldset>
+                
+                <label for="task">Tarea 1</label>
+                <progress id="task" max="100" value="75">
+
+                </progress>    
+                <label for="message">Mensaje</label>
+                <textarea name="" id="message" cols="70" rows="10"></textarea>
+            </fieldset>
+
+
+
+        
+    </form>
+</body>
+</html>
