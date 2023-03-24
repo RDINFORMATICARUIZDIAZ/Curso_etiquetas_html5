@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <!-- El atributo "placeholder" se define como un consejo o indicación corta que puede consistir en una solo palabra o en una pequeña frase. Es aceptado en los elementos input y textarea. Esta indicación es mostrada por el navegador cuando el elemento no tiene valor asignado o este sea un valor vacío.
+
+            <input type="email" name="email" placeholder="Por ejemplo, juan@dominio.com">
+
+        El atributo "required" es un valor de tipo booleano que indica si el campo del input está o no vacío; cuando se utiliza, este, avisa a la persona que diligencia el formulario si uno o más campos deben diligenciarse y a su vez, restringe la posibilidad de que el formulario sea enviado.
+        El atributo required en los formularios HTML funcionan con los <input> de tipo: text, search, url, tel, email, password, date, number, checkbox, radio y file.
+
+            <input type=”password” required />
+       
+
+        Este otro atributo "readonly" es muy parecido al anterior, al atributo disabled. Con el anterior lográbamos desactivar un campo, evitando poder escribir sobre él.
+
+        ¿Qué es el atributo disabled?
+        La pseudo-clase :disabled de CSS representa a cualquier elemento deshabilitado. Un elemento se encuentra deshabilitado si no puede ser activado (por ejemplo ser selecionado, hacer click en él o aceptar texto de entrada)
+        
+
+        selected; Sirve para dar por defecto a un option elegido
+
+        autofocus: el foco por defecto al cargar el formulario
+
+         -->
+
+
+
+        <form action="">
+            
+                <input type="text" placeholder="Introduce Tu Nombre" required>
+                <input type="text" value="Hola" readonly>
+                <input type="text" value="Hola" disabled>
+                <select name="number" id="">
+                <option value="one" >one</option>
+                <option value="Two">Two</option>
+                </select>  
+                <input type="number" min="5" max="10" autofocus>
+                <input type="text" minlength="3" maxlength="15" required>
+                <input type="submit">
+
+        </form>
+    </main>
+</body>
+</html>
