@@ -16,6 +16,7 @@
                 [atributo$=valor]-> Selecciona los elementos cuyo atributo termine con valor
                 [atributo|=valor]-> Selecciona los elementos cuyo atributo comience con valor o valor-
                 
+                
     Selectores Compuestos
         Selectores Agrupados -> Se agrupan los selectores separados por comas y se escribe el estilo una sola vez 
         Selectores Combinadores
@@ -24,27 +25,66 @@
             Selector de hermanos siguientes ~ -> Selecciona  a todos los hermanos siguientes
             Selector de hijo directo > -> Selecciona SOLO los hijos directos
 */
-/* Selector Universal -> * */ 
+/* Selector Universal -> * 
 *{
     background-color: lightcoral;
 }
 
-/* Selector de Etiqueta -> * */ 
+Selector de Etiqueta -> *
 
-h1{
+    h1{
     background-color: lightgreen;
-}
+    }
 
-p{
+    p{
     background-color: lightskyblue;
-}
+    }
 
-ul{
+    ul{
     background-color: red;
-}
-li{
+    }
+    li{
     background-color: blue;
-}
+    }
+    */ 
+
+
+
+/* Selectores de atributo
+            id -> id del elemento
+            clase -> clase del elemento */
+
+
+    .title{
+        background-color: lightcoral;
+    }
+
+    .texto{
+        background-color: aqua;
+    }
+
+
+   /* otros atributos
+    [atributo]->Selecciona los elementos con ese atributo
+    [atributo=valor]->Selecciona los elementos que coincidan con el atributo=valor
+    [atributo^=valor]-> Selecciona los elementos cuyo atributo comience con valor
+    [atributo*=valor]-> Selecciona los elementos cuyo atributo contenga valor
+    [atributo$=valor]-> Selecciona los elementos cuyo atributo termine con valor
+    [atributo|=valor]-> Selecciona los elementos cuyo atributo comience con valor o valor- */
+
+
+    [href]{
+        background-color: blueviolet;
+    }
+
+    [href="https://www.google.com"]{
+        background-color: mediumvioletred;
+    }
+
+
+    
+
+
 
 
 
