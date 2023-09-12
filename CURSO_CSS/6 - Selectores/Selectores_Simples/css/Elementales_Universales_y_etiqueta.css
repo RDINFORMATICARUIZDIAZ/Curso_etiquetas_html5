@@ -1,0 +1,32 @@
+/* Selectores Elementales
+
+    Selectores Universales -> * "El selector universal basta con colocar solo un asterisco"
+
+    Al momento de utilizar este selector hay que tener mucho cuidado, no es bueno abusar de su uso
+*/
+
+*{
+    background-color: aqua;
+}
+
+
+/* Selectores Elementales
+
+    Selectores de etiqueta -> h1 
+*/
+
+h1{
+    background-color: red;
+}
+
+p{
+    background-color: blue;
+}
+
+ul{
+    background-color: chartreuse;
+}
+
+li{
+    background-color: fuchsia;
+}
