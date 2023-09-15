@@ -1,0 +1,29 @@
+/*  Selectores Compuestos
+
+Los selectores compuestos le permiten hacerlo de diferentes maneras. Para seleccionar elementos que satisfagan cualquiera de una lista decondiciones: utilice una coma para separar cada selector de componentes.
+
+        Selectores Agrupados -> Se agrupan los selectores separados por comas y se escribe el estilo una sola vez 
+       
+*/
+
+.text,
+.text1,
+.text2,
+.text3,
+.text4{
+    background-color: cyan;
+}
+
+
+
+/*
+Selectores Combinadores
+            Selector descendente -> Selecciona un elemento dentro de otro
+            Tambien denominado padre - hijo.
+            Selector de hermano siguiente + -> Selecciona al hermano siguiente adyacente 
+            Selector de hermanos siguientes ~ -> Selecciona  a todos los hermanos siguientes
+            Selector de hijo directo > -> Selecciona SOLO los hijos directos */
+
+div .p{
+    background-color: blue;
+}

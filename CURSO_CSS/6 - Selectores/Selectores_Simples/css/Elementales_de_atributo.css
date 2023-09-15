@@ -1,0 +1,54 @@
+/* Selectores Elementales
+
+    Selectores de atributo
+            id -> id del elemento
+            clase -> clase del elemento
+            otros atributos
+                [atributo]->Selecciona los elementos con ese atributo
+                [atributo=valor]->Selecciona los elementos que coincidan con el atributo=valor
+                [atributo^=valor]-> Selecciona los elementos cuyo atributo comience con valor
+                [atributo*=valor]-> Selecciona los elementos cuyo atributo contenga valor
+                [atributo$=valor]-> Selecciona los elementos cuyo atributo termine con valor
+                [atributo|=valor]-> Selecciona los elementos cuyo atributo comience con valor o valor-
+*/
+
+#title{
+    background-color: blueviolet;
+}
+
+#title2{
+    background-color: aquamarine;
+}
+
+#parrafos{
+    background-color: chartreuse;
+}
+
+
+
+
+/* Selector de clase: este es el selector mas recomendable
+
+
+clase -> clase del elemento*/
+
+.parrafo2{
+    background-color: cadetblue;
+}
+
+.parrafo3{
+    background-color: blue;
+}
+
+.listas{
+    background-color: blueviolet;
+}
+
+
+/*
+[atributo]->Selecciona los elementos con ese atributo
+*/
+
+[href]{
+    background-color: coral;
+}
